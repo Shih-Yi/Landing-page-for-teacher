@@ -55,23 +55,29 @@ $title-color: #fff;
 }
 
 /* header_subtitle */
+%extendtitle{
+  text-align: center;
+  padding: 50px 0;
+}
 
 .header_subtitle{
 
 }
   .subtitle{
-    text-align: center;
-    padding: 50px 0;
-    font-size: 3em;
+    @extend %extendtitle;
+    font-size: 2.2em;
   }
 
 /* help*/
-
-.type{
+%exContainer{
   width: 1145px;
   margin: 20px auto 60px;
   text-transform: capitalize;
   text-align: center;
+}
+
+.type{
+  @extend %exContainer;
 
   .typeBox{
     float: left;
@@ -105,6 +111,64 @@ $title-color: #fff;
       line-height: 30px;
     }
 }
+
+// decide
+.decide{
+  background-color: #ff5f5f;
+  .subtitle1{
+      @extend %extendtitle;
+      width: 800px;
+      margin: auto;
+      font-size: 1.5em;
+  }
+}
+
+// FAQtitle
+.faqWord1{
+  text-align: center;
+  padding: 1em 0 0.5em;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.faqWord2{
+  text-align: center;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+// FAQcontent
+
+  .faqContainer{
+    @extend %exContainer;
+    .faqBox{
+      float: left;
+      width: 550px;
+      height: 150px;
+      margin-right: 30px;
+    }
+    .faqBox:nth-child(2n){
+     margin-right: 0px;
+    }
+      .faqBoxInside{
+        float: left;
+        text-align: left;
+      }
+        .faq1{
+          font-size: 2em;
+          font-weight: bold;
+        }
+        .faqDetail{
+          font-size: 1em;
+          font-weight: normal;
+          line-height: 30px;
+        }
+  }
+
+
+
+
+
 
 
 // copyright
