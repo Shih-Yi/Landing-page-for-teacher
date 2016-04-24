@@ -43,16 +43,48 @@ $title-color: #fff;
 .wrapper {
   padding:120px 0;
   text-align: center;
+  text-transform: capitalize;
   .title{
-    text-transform: capitalize;
     color: $title-color;
     font-size: 4em;
   }
   .title2{
     color: $title-color;
-    font-size: 1.25em;
+    font-size: 1.8em;
+    padding: 2em 0 3em;
   }
 }
+
+//form
+%formDetail{
+  padding: 13px 15px 13px 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: #e0e0e1 2px solid;
+  border-radius: 0.5em;
+  outline: none;
+}
+
+#name{
+  @extend %formDetail;
+}
+#email{
+  @extend %formDetail;
+}
+
+.signupButton{
+  padding: 0 0 0 0px;
+  background-color: #98c593;
+  border-radius: 0.5em;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  border: 0;
+}
+
 
 /* header_subtitle */
 %extendtitle{
@@ -180,7 +212,7 @@ $title-color: #fff;
 // copyright
 .copyRight{
   box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
-  height: 82px;
+  height: 50px;
   background-color: #ff5f5f;
 }
   .theme{
