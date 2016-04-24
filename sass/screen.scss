@@ -138,10 +138,14 @@ $title-color: #fff;
 }
 
 // FAQcontent
-
+%exfaqBoxIndex{
+  text-align: left;
+  float: left;
+}
   .faqContainer{
     @extend %exContainer;
     .faqBox{
+
       float: left;
       width: 550px;
       height: 150px;
@@ -150,9 +154,15 @@ $title-color: #fff;
     .faqBox:nth-child(2n){
      margin-right: 0px;
     }
-      .faqBoxInside{
-        float: left;
-        text-align: left;
+      .faqBoxInside1{
+        @extend %exfaqBoxIndex;
+        margin-left: 100px;
+
+      }
+      .faqBoxInside2{
+        @extend %exfaqBoxIndex;
+        margin-left: 50px;
+
       }
         .faq1{
           font-size: 2em;
@@ -167,35 +177,42 @@ $title-color: #fff;
 
 
 
-
-
-
-
 // copyright
 .copyRight{
   box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
   height: 82px;
+  background-color: #ff5f5f;
 }
+  .theme{
+    padding-top: 25px;
+  }
 
 
 @media(max-width: 1000px){
+
   .header {
     width:600px;
   }
-  .header2 {
+  .header_subtitle{
     width:600px;
   }
-  .container {
+  .help {
     width:600px;
   }
-  .teamInfo{
+  .decide{
+    width: 600px;
+  }
+  .faqTitle{
+    width: 600px;
+  }
+  .faqContent{
     width: 600px;
   }
 
 }
 
 @media(max-width: 599px){
-  .container{
+  .header{
     width:320px;
   }
   .about{
@@ -214,7 +231,7 @@ $title-color: #fff;
   .memberPic{
     width:320px;
   }
-  .member{
+  .typeBox{
     width: 100%;
     margin-bottom: 50px;
   }

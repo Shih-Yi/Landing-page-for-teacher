@@ -204,91 +204,116 @@ a {
   text-transform: capitalize;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
+.faqContainer .faqBoxInside1, .faqContainer .faqBoxInside2 {
+  text-align: left;
+  float: left;
+}
+
+/* line 147, ../sass/screen.scss */
 .faqContainer .faqBox {
   float: left;
   width: 550px;
   height: 150px;
   margin-right: 30px;
 }
-/* line 150, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .faqContainer .faqBox:nth-child(2n) {
   margin-right: 0px;
 }
-/* line 153, ../sass/screen.scss */
-.faqContainer .faqBoxInside {
-  float: left;
-  text-align: left;
-}
 /* line 157, ../sass/screen.scss */
+.faqContainer .faqBoxInside1 {
+  margin-left: 100px;
+}
+/* line 162, ../sass/screen.scss */
+.faqContainer .faqBoxInside2 {
+  margin-left: 50px;
+}
+/* line 167, ../sass/screen.scss */
 .faqContainer .faq1 {
   font-size: 2em;
   font-weight: bold;
 }
-/* line 161, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .faqContainer .faqDetail {
   font-size: 1em;
   font-weight: normal;
   line-height: 30px;
 }
 
-/* line 175, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .copyRight {
   box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
   height: 82px;
+  background-color: #ff5f5f;
+}
+
+/* line 186, ../sass/screen.scss */
+.theme {
+  padding-top: 25px;
 }
 
 @media (max-width: 1000px) {
-  /* line 182, ../sass/screen.scss */
+  /* line 193, ../sass/screen.scss */
   .header {
     width: 600px;
   }
 
-  /* line 185, ../sass/screen.scss */
-  .header2 {
+  /* line 196, ../sass/screen.scss */
+  .header_subtitle {
     width: 600px;
   }
 
-  /* line 188, ../sass/screen.scss */
-  .container {
+  /* line 199, ../sass/screen.scss */
+  .help {
     width: 600px;
   }
 
-  /* line 191, ../sass/screen.scss */
-  .teamInfo {
+  /* line 202, ../sass/screen.scss */
+  .decide {
+    width: 600px;
+  }
+
+  /* line 205, ../sass/screen.scss */
+  .faqTitle {
+    width: 600px;
+  }
+
+  /* line 208, ../sass/screen.scss */
+  .faqContent {
     width: 600px;
   }
 }
 @media (max-width: 599px) {
-  /* line 198, ../sass/screen.scss */
-  .container {
+  /* line 215, ../sass/screen.scss */
+  .header {
     width: 320px;
   }
 
-  /* line 201, ../sass/screen.scss */
+  /* line 218, ../sass/screen.scss */
   .about {
     width: 100%;
     margin-bottom: 50px;
   }
 
-  /* line 205, ../sass/screen.scss */
+  /* line 222, ../sass/screen.scss */
   .chart {
     width: 100%;
     margin-bottom: 50px;
   }
 
-  /* line 210, ../sass/screen.scss */
+  /* line 227, ../sass/screen.scss */
   .teamInfo {
     width: 320px;
   }
 
-  /* line 214, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   .memberPic {
     width: 320px;
   }
 
-  /* line 217, ../sass/screen.scss */
-  .member {
+  /* line 234, ../sass/screen.scss */
+  .typeBox {
     width: 100%;
     margin-bottom: 50px;
   }
