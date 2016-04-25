@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>AmazingTutor</title>
 
-  <meta name="viewport" content="width=device-width; initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -17,15 +17,14 @@
         earn money by helping foreigner to learn chinese
       </div>
       <div class="form">
-        <form action="http://www.newsleopard.com/mailverify.htm?x=00000000537670640153ffbbc7d64eb4" target="hidden_iframe" method="post" onsubmit="submitted=true;" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 400px;margin: 10px auto;padding: 12px 20px;">
+        <form id="yourFormId" action="http://www.newsleopard.com/mailverify.htm?x=00000000537670640153ffbbc7d64eb4" target="_self" method="post" onsubmit="submitted=true;" style="-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;max-width: 400px;margin: 10px auto;padding: 12px 20px;">
 
-          <fieldset>
-                    <input name="name" id="name" value="" placeholder="Name" type="text" style="margin-bottom: 20px; background-color: #FFfFfF;">
-                    <input name="email" id="email" value="" placeholder="Email Address" type="email" style="margin-bottom: 20px;background-color: #FFfFfF;">
-
-                    <button class="signupButton" type="submit">Continue to Apply</button>
-
-                </fieldset>
+        <fieldset>
+          <input name="name" id="name" value="" placeholder="Name" type="text" style="margin-bottom: 20px; background-color: #FFfFfF;">
+          <input name="email" id="email" value="" placeholder="Email Address" type="email" style="margin-bottom: 20px;background-color: #FFfFfF;">
+          <button onclick="SubmitForm();" class="signupButton">Continue to Apply</button>
+          <!-- <button id="yourLinkId" class="signupButton" type="submit">Continue to Apply</button> -->
+        </fieldset>
         </form>
       </div>
 
@@ -173,7 +172,6 @@
     </div>
   </section>
 
-
   <section class="copyRight">
     <div class="copyContent">
         <div class="theme"> 2016 AmazingTutor | All Rights Reserved</div>
@@ -181,7 +179,12 @@
     </div>
   </section>
 
-
+<script type="text/javascript">
+  function SubmitForm(){
+    document.getElementById("yourFormId").submit();
+    window.open("form.html");
+  }
+</script>
 
 
 
