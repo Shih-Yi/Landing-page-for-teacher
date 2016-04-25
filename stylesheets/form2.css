@@ -1,3 +1,16 @@
+/* top container */
+
+.topContainer{
+  width: 50%;
+  margin: auto;
+}
+
+.firContainer{
+  width: 80%;
+  padding: 2em 0;
+  margin: auto;
+}
+
 /* teacher's names */
 #entry_1343413944{
   width: 250px;
@@ -24,3 +37,16 @@
   padding: 20px 0;
   text-transform: capitalize;
 }
+
+
+.jfk-button{
+  padding: 0 0 0 0px;
+  background-color: #1FB45E;
+  border-radius: 0.5em;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  border: 0;
+}
+
