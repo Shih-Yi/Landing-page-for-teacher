@@ -32,16 +32,20 @@ a{
   clear: both;
 }
 
+
 /* .header2 */
 .header{
-  width: 1450px;
+  // width: 1280px;
   height: 600px;
-  background-image: url(http://lorempixel.com/1000/500/);
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: 10% 80%;
+  background-repeat: no-repeat;
 }
 
 $title-color: #fff;
 .wrapper {
-  padding:120px 0;
+  padding: 180px 0;
   text-align: center;
   text-transform: capitalize;
   .title{
@@ -50,8 +54,8 @@ $title-color: #fff;
   }
   .title2{
     color: $title-color;
-    font-size: 1.8em;
-    padding: 2em 0 3em;
+    font-size: 3em;
+    padding: 1em 0;
   }
 }
 
@@ -119,7 +123,24 @@ $title-color: #fff;
     // border: 1px solid black;
   }
 
+  .typeBox2{
+    float: left;
+    width: 360px;
+    height: 350px;
+    margin-right: 30px;
+    // border: 1px solid black;
+  }
+
+  .helpImg img{
+    width: 110px;
+    height: 110px;
+  }
+
   .typeBox:nth-child(4n){
+    margin-right: 0;
+  }
+
+   .typeBox2:nth-child(3n){
     margin-right: 0;
   }
 
@@ -129,7 +150,7 @@ $title-color: #fff;
       vertical-align : middle;
     }
     .helpWord{
-      font-size: 2em;
+      font-size: 2.2em;
       font-weight: bold;
       letter-spacing: normal;
       line-height: 24px;
@@ -138,7 +159,7 @@ $title-color: #fff;
 
     .helpWord2{
       color: #7a7a7a;
-      font-size: 1em;
+      font-size: 1.4em;
       font-weight: normal;
       line-height: 30px;
     }
@@ -147,26 +168,33 @@ $title-color: #fff;
 // decide
 .decide{
   background-color: #ff5f5f;
+  // width: 1280px;
   .subtitle1{
       @extend %extendtitle;
       width: 800px;
+      height: 130px;
       margin: auto;
-      font-size: 1.5em;
+      color: #fff;
+      font-size: 2em;
+      line-height: 150%;
   }
 }
 
 // FAQtitle
-.faqWord1{
-  text-align: center;
-  padding: 1em 0 0.5em;
-  font-size: 3em;
-  text-transform: uppercase;
-}
-.faqWord2{
-  text-align: center;
-  padding: 0.5em 0;
-  font-size: 1.2em;
-  text-transform: capitalize;
+.faqTitle{
+  background-color: #f7f7f7;
+  .faqWord1{
+    text-align: center;
+    padding: 1em 0 0.5em;
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+  .faqWord2{
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 1.2em;
+    text-transform: capitalize;
+  }
 }
 
 // FAQcontent
@@ -180,7 +208,7 @@ $title-color: #fff;
 
       float: left;
       width: 550px;
-      height: 150px;
+      height: 200px;
       margin-right: 30px;
     }
     .faqBox:nth-child(2n){
@@ -188,17 +216,18 @@ $title-color: #fff;
     }
       .faqBoxInside1{
         @extend %exfaqBoxIndex;
-        margin-left: 100px;
+        margin-left: 200px;
 
       }
       .faqBoxInside2{
         @extend %exfaqBoxIndex;
-        margin-left: 50px;
+        margin-left: 120px;
 
       }
         .faq1{
           font-size: 2em;
           font-weight: bold;
+          padding-bottom: 20px;
         }
         .faqDetail{
           font-size: 1em;
@@ -207,16 +236,38 @@ $title-color: #fff;
         }
   }
 
+//answer
+.answerTitle{
+  font-size: 1.5em;
+  padding: 50px 200px 20px;
+
+}
+
+.answerSub{
+  // line-height: 30px;
+  padding-left: 200px;
+
+}
+.answerQ{
+    padding: 0 0 20px 200px;
+    line-height: 20px;
+  }
 
 
 // copyright
-.copyRight{
+.copyContent{
   box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
   height: 50px;
   background-color: #ff5f5f;
 }
   .theme{
-    padding-top: 25px;
+    width: 300px;
+    padding: 10px;
+  }
+  .icon img{
+    width: 25px;
+    height: 25px;
+    // display: inline;
   }
 
 
