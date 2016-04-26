@@ -82,7 +82,7 @@ a {
 
 /* line 21, ../sass/screen.scss */
 .font {
-  font-family: "Montserrat", Serif;
+  font-family: Raleway;
 }
 
 /* line 25, ../sass/screen.scss */
@@ -178,32 +178,21 @@ a {
   margin-right: 30px;
 }
 /* line 126, ../sass/screen.scss */
-.type .typeBox2 {
-  float: left;
-  width: 360px;
-  height: 350px;
-  margin-right: 30px;
-}
-/* line 134, ../sass/screen.scss */
 .type .helpImg img {
   width: 110px;
   height: 110px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .type .typeBox:nth-child(4n) {
   margin-right: 0;
 }
-/* line 143, ../sass/screen.scss */
-.type .typeBox2:nth-child(3n) {
-  margin-right: 0;
-}
-/* line 147, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .type .helpImg {
   width: 100px;
   margin: 2em auto;
   vertical-align: middle;
 }
-/* line 152, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .type .helpWord {
   font-size: 2.2em;
   font-weight: bold;
@@ -211,7 +200,7 @@ a {
   line-height: 24px;
   margin: 1em 0 1.5em;
 }
-/* line 160, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .type .helpWord2 {
   color: #7a7a7a;
   font-size: 1.4em;
@@ -219,11 +208,11 @@ a {
   line-height: 30px;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .decide {
   background-color: #ff5f5f;
 }
-/* line 172, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .decide .subtitle1 {
   width: 800px;
   height: 130px;
@@ -233,159 +222,228 @@ a {
   line-height: 150%;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
+.subtitle1 {
+  text-align: center;
+  padding: 50px 0 10px;
+}
+
+/* line 179, ../sass/screen.scss */
+.subtitle1 {
+  font-size: 2.2em;
+}
+
+/* line 189, ../sass/screen.scss */
+.type .typeBox2 {
+  float: left;
+  width: 360px;
+  height: 250px;
+  margin-right: 30px;
+}
+/* line 196, ../sass/screen.scss */
+.type .typeBox2:nth-child(3n) {
+  margin-right: 0;
+}
+/* line 200, ../sass/screen.scss */
+.type .helpImg2 {
+  float: left;
+  width: 120px;
+  height: 250px;
+  padding: 60px 0;
+}
+/* line 209, ../sass/screen.scss */
+.type .helpImg2 img {
+  width: 110px;
+  height: 110px;
+}
+/* line 215, ../sass/screen.scss */
+.type .typeW {
+  float: left;
+  width: 240px;
+  height: 250px;
+  padding: 50px 0;
+}
+/* line 221, ../sass/screen.scss */
+.type .helpWord3 {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin: 1em 0 1em;
+  top: calc(50%);
+}
+/* line 230, ../sass/screen.scss */
+.type .helpWord4 {
+  color: #7a7a7a;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+/* line 242, ../sass/screen.scss */
 .faqTitle {
   background-color: #f7f7f7;
 }
-/* line 186, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .faqTitle .faqWord1 {
   text-align: center;
   padding: 1em 0 0.5em;
   font-size: 3em;
   text-transform: uppercase;
 }
-/* line 192, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .faqTitle .faqWord2 {
   text-align: center;
-  padding: 0.5em 0;
-  font-size: 1.2em;
+  padding: 0 0 1em;
+  font-size: 1.5em;
   text-transform: capitalize;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .faqContainer .faqBoxInside1, .faqContainer .faqBoxInside2 {
   text-align: left;
   float: left;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
+.faqContainer {
+  padding-top: 50px;
+  margin: 0 auto 30px;
+}
+/* line 268, ../sass/screen.scss */
 .faqContainer .faqBox {
   float: left;
   width: 550px;
-  height: 200px;
+  height: 180px;
   margin-right: 30px;
 }
-/* line 214, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .faqContainer .faqBox:nth-child(2n) {
   margin-right: 0px;
 }
-/* line 217, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 .faqContainer .faqBoxInside1 {
   margin-left: 200px;
 }
-/* line 222, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .faqContainer .faqBoxInside2 {
   margin-left: 120px;
 }
-/* line 227, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .faqContainer .faq1 {
   font-size: 2em;
   font-weight: bold;
   padding-bottom: 20px;
 }
-/* line 232, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .faqContainer .faqDetail {
   font-size: 1em;
   font-weight: normal;
   line-height: 30px;
 }
 
-/* line 240, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .answerTitle {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: bold;
   padding: 50px 200px 20px;
 }
 
-/* line 246, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 .answerSub {
   padding-left: 200px;
 }
 
-/* line 251, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .answerQ {
   padding: 0 0 20px 200px;
   line-height: 20px;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
+.white {
+  height: 60px;
+}
+
+/* line 323, ../sass/screen.scss */
 .copyContent {
   box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
   height: 50px;
   background-color: #ff5f5f;
 }
 
-/* line 263, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 .theme {
   width: 300px;
   padding: 10px;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 .icon img {
   width: 25px;
   height: 25px;
 }
 
 @media (max-width: 1000px) {
-  /* line 276, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   .header {
     width: 600px;
   }
 
-  /* line 279, ../sass/screen.scss */
+  /* line 344, ../sass/screen.scss */
   .header_subtitle {
     width: 600px;
   }
 
-  /* line 282, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   .help {
     width: 600px;
   }
 
-  /* line 285, ../sass/screen.scss */
+  /* line 350, ../sass/screen.scss */
   .decide {
     width: 600px;
   }
 
-  /* line 288, ../sass/screen.scss */
+  /* line 353, ../sass/screen.scss */
   .faqTitle {
     width: 600px;
   }
 
-  /* line 291, ../sass/screen.scss */
+  /* line 356, ../sass/screen.scss */
   .faqContent {
     width: 600px;
   }
 }
 @media (max-width: 599px) {
-  /* line 298, ../sass/screen.scss */
+  /* line 363, ../sass/screen.scss */
   .header {
     width: 320px;
   }
 
-  /* line 301, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   .about {
     width: 100%;
     margin-bottom: 50px;
   }
 
-  /* line 305, ../sass/screen.scss */
+  /* line 370, ../sass/screen.scss */
   .chart {
     width: 100%;
     margin-bottom: 50px;
   }
 
-  /* line 310, ../sass/screen.scss */
+  /* line 375, ../sass/screen.scss */
   .teamInfo {
     width: 320px;
   }
 
-  /* line 314, ../sass/screen.scss */
+  /* line 379, ../sass/screen.scss */
   .memberPic {
     width: 320px;
   }
 
-  /* line 317, ../sass/screen.scss */
+  /* line 382, ../sass/screen.scss */
   .typeBox {
     width: 100%;
     margin-bottom: 50px;
