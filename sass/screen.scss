@@ -50,11 +50,11 @@ $title-color: #fff;
   text-transform: capitalize;
   .title{
     color: $title-color;
-    font-size: 4em;
+    // font-size: 4em;
   }
   .title2{
     color: $title-color;
-    font-size: 3em;
+    // font-size: 3em;
     padding: 1em 0;
   }
 }
@@ -336,55 +336,144 @@ $title-color: #fff;
   }
 
 
-@media(max-width: 1000px){
 
-  .header {
-    width:600px;
-  }
-  .header_subtitle{
-    width:600px;
-  }
-  .help {
-    width:600px;
-  }
-  .decide{
-    width: 600px;
-  }
-  .faqTitle{
-    width: 600px;
-  }
-  .faqContent{
-    width: 600px;
+@media(max-width: 480px){
+.header{
+    width: 100%;
+    .title{
+    font-size: 30px;
+     }
+     .title2{
+    font-size: 25px;
+     }
   }
 
 }
 
-@media(max-width: 599px){
-  .header{
-    width:320px;
-  }
-  .about{
+
+.subtitle{
+  font-size: 2em;
+  padding: 40px 0 0 0;
+}
+
+.type{
+  width: 100%;
+  margin: 0 0 40px;
+  box-sizing: border-box;
+  padding-left: 90px;
+}
+
+.typeBox2{
+  width: 100%;
+  margin: 0;
+}
+
+.decide{
+  width: 100%;
+  .subtitle1{
     width: 100%;
-    margin-bottom: 50px;
+    font-size: 1.5em;
   }
-  .chart{
+}
+
+.faqContainer{
+  width: 100%;
+  .faqBox{
     width: 100%;
-    margin-bottom: 50px;
+    margin: 0 0 50px -50px;
+    padding-bottom: 50px;
+  }
+}
+
+.answer1{
+  width: 100%;
+  margin-left: -100px;
+}
+
+
+@media(min-width: 480px) and (max-width: 992px){
+.header{
+  width: 100%;
+  .title{
+    font-size: 40px;
+  }
+  .title2{
+    font-size: 0.6em;
+   }
+  }
+}
+
+.type{
+  width: 100%;
+  .typeBox2{
+    width: 100%;
+    margin: 0 0px 0px 0px;
+  }
+}
+
+
+@media(min-width: 992px){
+
+.header{
+  width: 100%;
+  .title{
+    font-size: 50px;
+  }
+  .title2{
+    font-size: 0.6em;
+  }
+}
+
+.type{
+  width: 1145px;
+  margin: 20px auto 60px;
+  padding: 0;
+
+
+  .typeBox2{
+      float: left;
+      width: 360px;
+      height: 250px;
+      margin-right: 30px;
   }
 
-  .teamInfo{
-    width:320px;
+  .typeBox2:nth-child(3n){
+      margin-right: 0;
   }
+}
 
-  .memberPic{
-    width:320px;
+.decide{
+
+  .subtitle1{
+    width: 800px;
+    margin: auto;
+    font-size: 1.5em;
   }
-  .typeBox{
-    width: 100%;
-    margin-bottom: 50px;
+}
+
+.faqContainer{
+
+  width: 1145px;
+  margin: auto;
+  .faqBox{
+    // float: left;
+      width: 550px;
+      height: 180px;
+      margin: 0 30px 0 0;
+  }
+  .faqBox:nth-child(2n){
+     margin-right: 0px;
+    }
+}
+
+.answerQ{
+    padding: 0 0 20px 300px;
+    line-height: 20px;
   }
 
 }
+
+
 
 
 
